@@ -21,6 +21,33 @@ body{
     right: 5%;
     top: 35%;
 }
+.menu2{
+    display: none;
+}
+.btnnavbar{
+    display: none;
+}
+.imgbtnnavbar{
+    display: none;
+}
+.barra{
+    display: none;
+}
+.btn1{
+    display: none;
+}
+.iniciobtn{
+    display: none;
+}
+.sobrebtn{
+    display: none;
+}
+.projetosbtn{
+    display: none;
+}
+.habilidadesbtn{
+    display: none;
+}
 .btn{
     text-decoration: none;
     border: none;
@@ -30,6 +57,8 @@ body{
     margin-top: 3%;
     cursor: pointer;
     font-size: 19px;
+}
+.stylebtn{
     font-family: 'Belanosima', sans-serif;
 }
 .btn :hover {
@@ -78,6 +107,11 @@ h3{
     padding: 1%;
     border-radius: 10px;
     background: #1f1f1f;
+}
+.textsobre{
+    color: white;
+    
+    width: 66%;
 }
 .imgsobre{
     position: absolute;

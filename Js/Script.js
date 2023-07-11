@@ -16,6 +16,8 @@ var hj = document.getElementById ("5h");
 var hjr = hj.dataset.aberto;
 var hk = document.getElementById("6h");
 var hkr = hk.textContent;
+var jk = document.getElementById("7h");
+var jkr = jk.dataset.aberto;
 function ax1(){
     if (oner == "1" &&
         twor == "2" &&
@@ -101,4 +103,12 @@ function ax3(){
         hz.dataset.aberto = hzr;
         hj.dataset.aberto = hjr;
         hk.textContent = hkr;
+        }
+        function ax4(){
+            if (jkr == "close"){
+                jkr = "open"
+            }else if (jkr == "open"){
+                jkr = "close"
+            }
+            jk.dataset.aberto = jkr;
         }
