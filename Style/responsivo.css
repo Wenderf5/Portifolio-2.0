@@ -1,4 +1,4 @@
-@media (max-width:425px){
+@media (max-width:426px){
     .navbar{
         height: 6%;
     }
@@ -37,18 +37,22 @@
     }
     .cardapio1{
         position: absolute;
-        left: 15%;
-        top: -75%;
     }
-    h2{
+    .blocosobre{
+        height: 50%;
+    }
+    .gr1{
         position: absolute;
-        left: 33%;
-        top: -92%;
+        left: 53%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 30px;
+    }
+    .txt123{
+        color: white;
     }
     .cardapio2{
         position: absolute;
-        left: 61%;
-        top: -75%;
     }
     .textsobre{
         width: 96%;
@@ -56,14 +60,19 @@
         margin-top: 0%
     }
     .div1{
+        position: absolute;
+        top: 150%;
+        width: 100%;
+        height: 60%;
         .projeto1{
             &[data-aberto="2"] {
             background-color: black;
             position: absolute;
             z-index: 1;
             opacity: 100%;
-            left: 26%;
-            top: 166%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            top: 50%;
             width: 150px;
             height: 200px;
             border: 1px #00ab6e solid;
@@ -76,8 +85,9 @@
             position: absolute;
             z-index: 0;
             opacity: 50%;
-            left: 11%;
-            top: 166%;
+            left: 50%;
+            transform: translate(-83%, -50%);
+            top: 50%;
             width: 150px;
             height: 200px;
             border: 1px #00ab6e solid;
@@ -90,8 +100,9 @@
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                left: 41%;
-                top: 166%;
+                left: 50%;
+                transform: translate(-18%, -50%);
+                top: 50%;
                 width: 150px;
                 height: 200px;
                 border: 1px #00ab6e solid;
@@ -113,8 +124,9 @@
                 position: absolute;
                 z-index: 1;
                 opacity: 100%;
-                left: 26%;
-                top: 166%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                top: 50%;
                 width: 150px;
                 height: 200px;
                 border: 1px #00ab6e solid;
@@ -127,8 +139,9 @@
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                left: 11%;
-                top: 166%;
+                left: 50%;
+                transform: translate(-83%, -50%);
+                top: 50%;
                 width: 150px;
                 height: 200px;
                 border: 1px #00ab6e solid;
@@ -141,8 +154,9 @@
                     position: absolute;
                     z-index: 0;
                     opacity: 50%;
-                    left: 41%;
-                    top: 166%;
+                    left: 50%;
+                    transform: translate(-18%, -50%);
+                    top: 50%;
                     width: 150px;
                     height: 200px;
                     border: 1px #00ab6e solid;
@@ -164,8 +178,9 @@
                 position: absolute;
                 z-index: 1;
                 opacity: 100%;
-                left: 26%;
-                top: 166%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                top: 50%;
                 width: 150px;
                 height: 200px;
                 border: 1px #00ab6e solid;
@@ -178,8 +193,9 @@
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                left: 11%;
-                top: 166%;
+                left: 50%;
+                transform: translate(-83%, -50%);
+                top: 50%;
                 width: 150px;
                 height: 200px;
                 border: 1px #00ab6e solid;
@@ -192,8 +208,9 @@
                     position: absolute;
                     z-index: 0;
                     opacity: 50%;
-                    left: 41%;
-                    top: 166%;
+                    left: 50%;
+                    transform: translate(-18%, -50%);
+                    top: 50%;
                     width: 150px;
                     height: 200px;
                     border: 1px #00ab6e solid;
@@ -212,27 +229,32 @@
 } 
 .projetos{
     position: absolute;
-    top: 153%;
-    left: 37%;
+    top: 3%;
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 .cardapio3{
     position: absolute;
-    top: 155.50%;
-    left: 63%;
+    top: 8%;
+    transform: translate(80%, -50%);
+    left: 50%;
 }
 .cardapio4{
     position: absolute;
-    top: 155.50%;
-    left: 20%;
+    top: 8%;
+    transform: translate(-183%, -50%);
+    left: 50%;
 }
 .btnmaior{
-    left: 91%;
-    top: 180%;
+    left: 95.50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
     font-size: 20px;
 }
 .btnmenor{
-    left: 1.40%;
-    top: 180%;
+    left: 4.50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
     font-size: 20px;
 }
 .blocohabilidades{
@@ -255,21 +277,26 @@
 }
 .cardapio5{
     position: absolute;
-    top: 5%;
-    left: 7%;
+    top: 8%;
+    transform: translate(-220%, -50%);
+    width: 50px;
+    left: 50%;
 }
 .habilidades{
     position: absolute;
     font-size: 19px;
     top: 4%;
-    left: 33%;
+    transform: translate(-50%, -50%);
+    left: 50%;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 .cardapio6{
     position: absolute;
-    top: 5%;
-    left: 70%;
+    top: 8%;
+    width: 50px;
+    transform: translate(120%, -50%);
+    left: 50%;
 }
 .texth1{
     &[data-aberto="close"]{
@@ -439,27 +466,27 @@
 }
 .imgredes1{
     position: absolute;
-    left: 65%;
+    left: 30%;
     top: 7%;
-    width: 8%;
+    width: 20%;
     padding: 0.10%;
     border-radius: 10px;
     background: #1f1f1f;
 }
 .imgredes2{
     position: absolute;
-    left: 73%;
+    left: 53%;
     top: 33%;
-    width: 8%;
+    width: 20%;
     padding: 0.10%;
     border-radius: 10px;
     background: #1f1f1f;
 }
 .imgredes3{
     position: absolute;
-    left: 82%;
-    top: 58%;
-    width: 8%;
+    left: 75%;
+    top: 57%;
+    width: 20%;
     padding: 0.10%;
     border-radius: 10px;
     background: #1f1f1f;
@@ -565,5 +592,12 @@
     width: 110px;
     height: 150px;
     }
+}
+.redesF{
+    display: inline-block;
+    position: absolute;
+    left: 59%;
+    width: 40%;
+    height: 100%;
 }
 }

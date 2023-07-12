@@ -122,7 +122,6 @@ h3{
 .blocosobre{
     position: absolute;
     top: 90%;
-    
     background-color: #0b0b0b;
     width: 100%;
     height: 60%;
@@ -135,23 +134,32 @@ h3{
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
+.txt123{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    color: white;
+    left: 55px;
+    top: -20px;
+}
+.gr1{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    width: 200px;
+    height: 30px;
+}
 .cardapio1{
     position: absolute;
     width: 50px;
-    bottom: 200px;
-    left: 350px;
+    left: 0px;
 }
 .cardapio2{
     position: absolute;
     width: 50px;
-    bottom: 200px;
-    left: 500px;
+    left: 125px;
 }
-h2{
-    font-family: 'Roboto', sans-serif;
-    position: absolute;
-    bottom: 175px;
-    left: 410px;
+.redesF{
+    display: none;
 }
 .div1{
     .projeto1{
