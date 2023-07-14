@@ -86,7 +86,7 @@
             border: 1px #00ab6e solid;
             box-shadow: 1px 1px 10px #00ab6e;
             border-radius: 5px;
-            transition: 100ms;
+            transition: 150ms;
             }
             &[data-aberto="1"]{
             background-color: black;
@@ -94,14 +94,14 @@
             z-index: 0;
             opacity: 50%;
             left: 50%;
-            transform: translate(-68.50%, -50%);
+            transform: translate(-73.50%, -50%);
             width: 150px;
             top: 48%;
             height: 280px;
             border: 1px #00ab6e solid;
             box-shadow: 1px 1px 10px #00ab6e;
             border-radius: 5px;
-            transition: 100ms;
+            transition: 150ms;
             }
             &[data-aberto="3"] {
                 background-color: black;
@@ -110,13 +110,13 @@
                 opacity: 50%;
                 left: 50%;
                 width: 150px;
-                transform: translate(-32%, -50%);
+                transform: translate(-27%, -50%);
                 top: 48%;
                 height: 280px;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
-                transition: 100ms;
+                transition: 150ms;
             }
         }
         .p1{
@@ -140,7 +140,7 @@
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
-                transition: 100ms;
+                transition: 150ms;
                 }
                 &[data-aberto="1"]{
                 background-color: black;
@@ -148,14 +148,14 @@
                 z-index: 0;
                 opacity: 50%;
                 left: 50%;
-                transform: translate(-68.50%, -50%);
+                transform: translate(-73.50%, -50%);
                 width: 150px;
                 top: 48%;
                 height: 280px;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
-                transition: 100ms;
+                transition: 150ms;
                 }
                 &[data-aberto="3"] {
                     background-color: black;
@@ -163,14 +163,14 @@
                     z-index: 0;
                     opacity: 50%;
                     left: 50%;
-                    transform: translate(-32%, -50%);
+                    transform: translate(-27%, -50%);
                     width: 150px;
                     top: 48%;
                     height: 280px;
                     border: 1px #00ab6e solid;
                     box-shadow: 1px 1px 10px #00ab6e;
                     border-radius: 5px;
-                    transition: 100ms;
+                    transition: 150ms;
                 }
         }
         .p2{
@@ -194,7 +194,7 @@
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
-                transition: 100ms;
+                transition: 150ms;
                 }
                 &[data-aberto="1"]{
                 background-color: black;
@@ -202,14 +202,14 @@
                 z-index: 0;
                 opacity: 50%;
                 left: 50%;
-                transform: translate(-68.50%, -50%);
+                transform: translate(-73.50%, -50%);
                 width: 150px;
                 top: 48%;
                 height: 280px;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
-                transition: 100ms;
+                transition: 150ms;
                 }
                 &[data-aberto="3"] {
                     background-color: black;
@@ -218,13 +218,13 @@
                     opacity: 50%;
                     left: 50%;
                     width: 150px;
-                    transform: translate(-32%, -50%);
+                    transform: translate(-27%, -50%);
                     top: 48%;
                     height: 280px;
                     border: 1px #00ab6e solid;
                     box-shadow: 1px 1px 10px #00ab6e;
                     border-radius: 5px;
-                    transition: 100ms;
+                    transition: 150ms;
                 }
         }
         .p3{
@@ -591,7 +591,7 @@
     display: flex;
     z-index: 1;
     top: 140%;
-    right: -33px;
+    right: -30px;
     position: absolute;
     background: #000000;
     border: 1px #00ab6e solid;
