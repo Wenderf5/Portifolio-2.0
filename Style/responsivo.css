@@ -86,7 +86,7 @@
             border: 1px #00ab6e solid;
             box-shadow: 1px 1px 10px #00ab6e;
             border-radius: 5px;
-            transition: 150ms;
+            transition: 300ms;
             }
             &[data-aberto="1"]{
             background-color: black;
@@ -101,7 +101,7 @@
             border: 1px #00ab6e solid;
             box-shadow: 1px 1px 10px #00ab6e;
             border-radius: 5px;
-            transition: 150ms;
+            transition: 300ms;
             }
             &[data-aberto="3"] {
                 background-color: black;
@@ -116,7 +116,7 @@
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
-                transition: 150ms;
+                transition: 300ms;
             }
         }
         .p1{
@@ -140,7 +140,7 @@
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
-                transition: 150ms;
+                transition: 300ms;
                 }
                 &[data-aberto="1"]{
                 background-color: black;
@@ -155,7 +155,7 @@
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
-                transition: 150ms;
+                transition: 300ms;
                 }
                 &[data-aberto="3"] {
                     background-color: black;
@@ -170,7 +170,7 @@
                     border: 1px #00ab6e solid;
                     box-shadow: 1px 1px 10px #00ab6e;
                     border-radius: 5px;
-                    transition: 150ms;
+                    transition: 300ms;
                 }
         }
         .p2{
@@ -194,7 +194,7 @@
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
-                transition: 150ms;
+                transition: 300ms;
                 }
                 &[data-aberto="1"]{
                 background-color: black;
@@ -209,7 +209,7 @@
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
-                transition: 150ms;
+                transition: 300ms;
                 }
                 &[data-aberto="3"] {
                     background-color: black;
@@ -224,7 +224,7 @@
                     border: 1px #00ab6e solid;
                     box-shadow: 1px 1px 10px #00ab6e;
                     border-radius: 5px;
-                    transition: 150ms;
+                    transition: 300ms;
                 }
         }
         .p3{
@@ -591,13 +591,13 @@
     display: flex;
     z-index: 1;
     top: 140%;
-    right: -30px;
+    right: -32px;
     position: absolute;
     background: #000000;
     border: 1px #00ab6e solid;
     width: 40px;
     height: 155px;
-    transition: 800ms;
+    transition: 400ms;
     }
     &[data-aberto="open"]{
     display: flex;
@@ -609,7 +609,7 @@
     border: 1px #00ab6e solid;
     width: 40px;
     height: 155px;
-    transition: 800ms;
+    transition: 400ms;
     }
 }
 .redesF{
