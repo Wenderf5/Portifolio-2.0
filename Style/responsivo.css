@@ -619,4 +619,12 @@
     width: 40%;
     height: 100%;
 }
+.reactimg{
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 500px;
+    height: 500px;
+}
 }
