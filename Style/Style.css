@@ -141,7 +141,7 @@ body {
 .reactimg{
     position: absolute;
     top: 20%;
-    left: 60%;
+    right: 7%;
     width: 500px;
     height: 500px;
 }
@@ -374,10 +374,10 @@ body {
 .btnmaior {
     cursor: pointer;
     position: absolute;
-    left: 78%;
+    left: 87%;
     top: 197%;
     border: none;
-    background: #1f1f1f;
+    background: none;
     border-radius: 3px;
     color: white;
     font-size: 30px;
@@ -389,17 +389,25 @@ body {
     left: 20%;
     top: 197%;
     border: none;
-    background: #1f1f1f;
+    background: none;
     border-radius: 3px;
     color: white;
     font-size: 30px;
 }
 
+.gr2 {
+    position: absolute;
+    left:43.50%;
+    top: 155%;
+    width: 200px;
+    height: 30px;
+}
+
 .projetos {
     position: absolute;
     font-size: 19px;
-    top: 153%;
-    left: 47.30%;
+    top: -50%;
+    left: 33%;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -407,15 +415,13 @@ body {
 .cardapio3 {
     position: absolute;
     width: 50px;
-    top: 155%;
-    left: 53%;
+    left: 5%;
 }
 
 .cardapio4 {
     position: absolute;
     width: 50px;
-    top: 155%;
-    left: 43.50%;
+    left: 75%;
 }
 
 .blocohabilidades {
@@ -441,14 +447,20 @@ body {
 .cardapio5 {
     position: absolute;
     top: 11%;
-    left: 37.20%;
+}
+
+.gr3 {
+    position: absolute;
+    left:40.50%;
+    top: 10%;
+    width: 290px;
+    height: 50px;
 }
 
 .habilidades {
     position: absolute;
     font-size: 19px;
-    top: 10%;
-    left: 43%;
+    left: 30%;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -456,7 +468,7 @@ body {
 .cardapio6 {
     position: absolute;
     top: 11%;
-    left: 51%;
+    left: 73%;
 }
 
 .texth1 {
@@ -579,7 +591,7 @@ body {
 .btnv {
     &[data-aberto="close"] {
         position: absolute;
-        left: 45%;
+        left: 47%;
         top: 300px;
         border: 1px #00ab6e solid;
         cursor: pointer;
@@ -594,7 +606,7 @@ body {
 
     &[data-aberto="open"] {
         position: absolute;
-        left: 45%;
+        left: 47%;
         top: 620px;
         border: 1px #00ab6e solid;
         cursor: pointer;
@@ -689,4 +701,40 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #606060;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:1200px){
+    .btnmaior {
+        cursor: pointer;
+        position: absolute;
+        left: 83%;
+        top: 197%;
+        border: none;
+        background: none;
+        border-radius: 3px;
+        color: white;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:1300px){
+    .btnmaior {
+        cursor: pointer;
+        position: absolute;
+        left: 80%;
+        top: 197%;
+        border: none;
+        background: none;
+        border-radius: 3px;
+        color: white;
+        font-size: 30px;
+    }
 }
