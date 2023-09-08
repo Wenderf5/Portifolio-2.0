@@ -35,17 +35,17 @@
     }
 
     .imgredes {
-        display: inline;
         position: relative;
         top: 0%;
-        width: 28%;
+        width: 20%;
+        height: 60%;
     }
 
     .subbloco1 {
         position: absolute;
-        left: 50%;
+        left: 55%;
         transform: translate(-50%, -50%);
-        width: 150px;
+        width: 170px;
         top: 84%;
     }
 
@@ -749,17 +749,17 @@
     }
 
     .imgredes {
-        display: inline;
         position: relative;
         top: 0%;
-        width: 28%;
+        width: 20%;
+        height: 60%;
     }
 
     .subbloco1 {
         position: absolute;
-        left: 50%;
+        left: 55%;
         transform: translate(-50%, -50%);
-        width: 150px;
+        width: 170px;
         top: 84%;
     }
 
