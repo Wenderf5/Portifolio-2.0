@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 
     .navbar {
         height: 11%;
@@ -12,9 +12,12 @@
     }
 
     .bloco1 {
+        display: flex;
+        align-items: center;
         position: absolute;
-        left: 5%;
-        top: 25%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
         width: 90%;
         height: 50%;
     }
@@ -29,1395 +32,708 @@
 
     .ds1 {
         font-size: 140%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: 23%;
+        margin-top: -5%;
     }
 
     .imgredes {
-        position: relative;
-        top: 0%;
-        width: 20%;
-        height: 60%;
-    }
-
-    .subbloco1 {
-        position: absolute;
-        left: 55%;
-        transform: translate(-50%, -50%);
-        width: 170px;
-        top: 84%;
-    }
-
-    .imgsobre {
-        display: none;
-    }
-
-    .cardapio1 {
-        position: absolute;
-    }
-
-    .blocosobre {
-        height: 50%;
-    }
-
-    .gr1 {
-        position: absolute;
-        left: 53%;
-        transform: translate(-50%, -50%);
-        width: 200px;
-        height: 30px;
-    }
-
-    .txt123 {
-        color: white;
-    }
-
-    .cardapio2 {
-        position: absolute;
-    }
-
-    .textsobre {
-        width: 96%;
-        font-size: 57%;
-        margin-top: 0%
-    }
-
-    .div1 {
-        position: absolute;
-        top: 150%;
-        width: 100%;
-        height: 60%;
-
-        .projeto1 {
-            &[data-aberto="2"] {
-                background-color: black;
-                position: absolute;
-                z-index: 1;
-                opacity: 100%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                top: 48%;
-                width: 150px;
-                height: 340px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="1"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                transform: translate(-73.50%, -50%);
-                width: 150px;
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="3"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                width: 150px;
-                transform: translate(-27%, -50%);
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-        }
-
-        .p1 {
-            font-family: 'Geologica', sans-serif;
-            text-align: center;
-            margin-top: 85%;
-            color: white;
-            font-size: 25px;
-        }
-
-        .projeto2 {
-            &[data-aberto="2"] {
-                background-color: black;
-                position: absolute;
-                z-index: 1;
-                opacity: 100%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                top: 48%;
-                width: 150px;
-                height: 340px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="1"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                transform: translate(-73.50%, -50%);
-                width: 150px;
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="3"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                transform: translate(-27%, -50%);
-                width: 150px;
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-        }
-
-        .p2 {
-            font-family: 'Geologica', sans-serif;
-            text-align: center;
-            margin-top: 85%;
-            color: white;
-            font-size: 25px;
-        }
-
-        .projeto3 {
-            &[data-aberto="2"] {
-                background-color: black;
-                position: absolute;
-                z-index: 1;
-                opacity: 100%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                top: 48%;
-                width: 150px;
-                height: 340px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="1"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                transform: translate(-73.50%, -50%);
-                width: 150px;
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="3"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                width: 150px;
-                transform: translate(-27%, -50%);
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-        }
-
-        .p3 {
-            font-family: 'Geologica', sans-serif;
-            text-align: center;
-            margin-top: 85%;
-            color: white;
-            font-size: 25px;
-        }
-    }
-
-    .gr2 {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: -8%;
-        width: 200px;
-        height: 30px;
-    }
-
-    .projetos {
-        position: absolute;
-        font-size: 19px;
-        top: -50%;
-        left: 33%;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .cardapio3 {
-        position: absolute;
-        width: 50px;
-        left: 5%;
-    }
-
-    .cardapio4 {
-        position: absolute;
-        width: 50px;
-        left: 75%;
-    }
-
-    .btnmaior {
-        left: 90%;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        font-size: 20px;
-    }
-
-    .btnmenor {
-        left: 10%;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        font-size: 20px;
-    }
-
-    .blocohabilidades {
-        &[data-aberto="open"] {
-            position: absolute;
-            top: 235%;
-            width: 100%;
-            height: 800px;
-            background: #0b0b0b;
-            transition: 800ms;
-        }
-
-        &[data-aberto="close"] {
-            position: absolute;
-            top: 210%;
-            width: 100%;
-            height: 463px;
-            background: #0b0b0b;
-            transition: 800ms;
-        }
-    }
-
-    .cardapio5 {
-        position: absolute;
-        top: 11%;
-        width: 60px;
-    }
-
-    .gr3 {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: 6%;
-        width: 210px;
-        height: 40px;
-    }
-
-    .habilidades {
-        position: absolute;
-        font-size: 15px;
-        left: 30%;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .cardapio6 {
-        position: absolute;
-        top: 11%;
-        left: 73%;
-        width: 60px;
-    }
-
-    .texth1 {
-        &[data-aberto="close"] {
-            font-family: 'Roboto', sans-serif;
-            position: absolute;
-            color: white;
-            top: 120px;
-            left: 3%;
-            font-size: 20px;
-            background: #0b0b0b;
-            border-radius: 20px;
-            width: 90%;
-            height: 100px;
-            padding: 2%;
-            transition: 800ms;
-        }
-
-        &[data-aberto="open"] {
-            font-family: 'Roboto', sans-serif;
-            top: 120px;
-            position: absolute;
-            color: white;
-            left: 3%;
-            width: 90%;
-            font-size: 20px;
-            background: #0b0b0b;
-            border-radius: 20px;
-            height: 100px;
-            padding: 2%;
-            transition: 800ms;
-        }
-    }
-
-    .imghtml {
-        display: none;
-        position: absolute;
-        left: 105%;
-        bottom: 27%;
-    }
-
-    .texth2 {
-        &[data-aberto="close"] {
-            font-family: 'Roboto', sans-serif;
-            position: absolute;
-            color: white;
-            top: 280px;
-            left: 3%;
-            width: 90%;
-            font-size: 20px;
-            background: none;
-            border-radius: 20px;
-            opacity: 20%;
-            height: 100px;
-            padding: 2%;
-            transition: 800ms;
-        }
-
-        &[data-aberto="open"] {
-            font-family: 'Roboto', sans-serif;
-            position: absolute;
-            color: white;
-            top: 280px;
-            left: 3%;
-            width: 90%;
-            font-size: 20px;
-            background: #0b0b0b;
-            border-radius: 20px;
-            height: 100px;
-            padding: 2%;
-            transition: 800ms;
-        }
-
-    }
-
-    .imgcss {
-        display: none;
-        position: absolute;
-        left: 105%;
-        bottom: 27%;
-    }
-
-    .texth3 {
-        &[data-aberto="close"] {
-            opacity: 0%;
-            font-family: 'Roboto', sans-serif;
-            position: absolute;
-            color: white;
-            top: 280px;
-            left: 3%;
-            width: 90%;
-            font-size: 20px;
-            background: #0b0b0b;
-            border-radius: 20px;
-            height: 100px;
-            padding: 2%;
-            transition: 10ms;
-        }
-
-        &[data-aberto="open"] {
-            font-family: 'Roboto', sans-serif;
-            position: absolute;
-            color: white;
-            top: 440px;
-            left: 3%;
-            width: 90%;
-            font-size: 20px;
-            background: #0b0b0b;
-            border-radius: 20px;
-            height: 100px;
-            padding: 2%;
-            transition: 500ms;
-        }
-    }
-
-    .imgjs {
-        display: none;
-        position: absolute;
-        left: 105%;
-        bottom: 27%;
-    }
-
-    .btnv {
-        &[data-aberto="close"] {
-            position: absolute;
-            left: 37%;
-            top: 300px;
-            border: 1px #00ab6e solid;
-            cursor: pointer;
-            background: black;
-            color: white;
-            font-size: 15px;
-            padding: 10px;
-            border-radius: 10px;
-            font-family: 'Montserrat', sans-serif;
-            transition: 800ms;
-        }
-
-        &[data-aberto="open"] {
-            position: absolute;
-            left: 37%;
-            top: 620px;
-            border: 1px #00ab6e solid;
-            cursor: pointer;
-            background: black;
-            color: white;
-            font-size: 15px;
-            padding: 10px;
-            border-radius: 10px;
-            font-family: 'Montserrat', sans-serif;
-            transition: 800ms;
-        }
-    }
-
-    .blocofinal {
-        position: absolute;
-        background-color: #000000;
-        width: 100%;
-        height: 80px;
-        bottom: 0%;
-    }
-
-    .Fnome {
-        position: absolute;
-        color: white;
-        font-size: 10px;
-        top: 20%;
-        left: 5%;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .email {
-        position: absolute;
-        color: white;
-        font-size: 10px;
-        top: 50%;
-        left: 5%;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .imgredes1 {
-        position: absolute;
-        left: 30%;
-        top: 7%;
-        width: 20%;
-        padding: 0.10%;
-        border-radius: 10px;
-        background: #1f1f1f;
-    }
-
-    .imgredes2 {
-        position: absolute;
-        left: 53%;
-        top: 33%;
-        width: 20%;
-        padding: 0.10%;
-        border-radius: 10px;
-        background: #1f1f1f;
-    }
-
-    .imgredes3 {
-        position: absolute;
-        left: 75%;
-        top: 57%;
-        width: 20%;
-        padding: 0.10%;
-        border-radius: 10px;
-        background: #1f1f1f;
-    }
-
-    .i11 {
-        display: none;
-        color: white;
-    }
-
-    .section2 {
-        color: white;
-        position: absolute;
-        top: 62%;
-    }
-
-    .section3 {
-        position: absolute;
-        top: 122%;
-        z-index: 10;
-        color: white;
-    }
-
-    .section4 {
-        color: wheat;
-        position: absolute;
-        top: 200%;
-        z-index: 10;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .menu2 {
-        display: grid;
-    }
-
-    .iniciobtn {
-        display: inline-block;
-        position: absolute;
-        left: 7px;
-        top: 10px;
-        width: 23px;
-        height: 20px;
-    }
-
-    .sobrebtn {
-        display: inline-block;
-        position: absolute;
-        left: 5px;
-        top: 45px;
-        width: 27px;
-        height: 24px;
-    }
-
-    .projetosbtn {
-        display: inline-block;
-        position: absolute;
-        left: 7.50px;
-        top: 85px;
-        width: 23px;
-        height: 20px;
-    }
-
-    .habilidadesbtn {
-        display: inline-block;
-        position: absolute;
-        top: 125px;
-        left: 7px;
-        width: 25px;
-        height: 22px;
-    }
-
-    .btn1 {
-        display: inline-block;
-        text-decoration: none;
-        border: none;
-        color: rgb(255, 255, 255);
-        background: none;
-        margin-left: 10%;
-        margin-top: 10%;
-        cursor: pointer;
-        font-size: 15px
-    }
-
-    .btnnavbar {
-        display: inline-block;
-        position: absolute;
-        left: 84%;
-        background: #1f1f1f;
-        top: 31%;
-        width: 33px;
-        height: 30px;
-        border-radius: 10px;
-        transition: 800ms;
-    }
-
-    .imgbtnnavbar {
-        position: absolute;
-        display: inline-block;
-        width: 100%;
-        height: 100%;
-    }
-
-    .barra {
-        &[data-aberto="close"] {
-            display: flex;
-            z-index: 1;
-            top: 140%;
-            right: -32px;
-            position: absolute;
-            background: #000000;
-            border: 1px #00ab6e solid;
-            width: 40px;
-            height: 155px;
-            transition: 400ms;
-        }
-
-        &[data-aberto="open"] {
-            display: flex;
-            z-index: 1;
-            top: 140%;
-            right: -1%;
-            position: absolute;
-            background: #000000;
-            border: 1px #00ab6e solid;
-            width: 40px;
-            height: 155px;
-            transition: 400ms;
-        }
-    }
-
-    .redesF {
-        display: inline-block;
-        position: absolute;
-        left: 59%;
-        width: 40%;
-        height: 100%;
-    }
-
-    .reactimg {
-        display: none;
-        position: absolute;
-        top: 20%;
-        left: 60%;
-        width: 500px;
-        height: 500px;
-    }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-
-    .navbar {
-        height: 11%;
-    }
-
-    .textmenu {
-        position: absolute;
-        font-size: 28px;
-        top: 32%;
-        left: 5%;
-    }
-
-    .bloco1 {
-        position: absolute;
-        left: 5%;
-        top: 25%;
-        width: 90%;
-        height: 50%;
-    }
-
-    .nome {
-        font-size: 210%;
-    }
-
-    .ds {
-        text-align: center;
-    }
-
-    .ds1 {
-        font-size: 140%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: 23%;
-    }
-
-    .imgredes {
-        position: relative;
-        top: 0%;
-        width: 20%;
-        height: 60%;
-    }
-
-    .subbloco1 {
-        position: absolute;
-        left: 55%;
-        transform: translate(-50%, -50%);
-        width: 170px;
-        top: 84%;
-    }
-
-    .imgsobre {
-        display: none;
-    }
-
-    .cardapio1 {
-        position: absolute;
-    }
-
-    .blocosobre {
-        height: 50%;
-    }
-
-    .gr1 {
-        position: absolute;
-        left: 53%;
-        transform: translate(-50%, -50%);
-        width: 200px;
-        height: 30px;
-    }
-
-    .txt123 {
-        color: white;
-    }
-
-    .cardapio2 {
-        position: absolute;
-    }
-
-    .textsobre {
-        width: 96%;
-        font-size: 57%;
-        margin-top: 0%
-    }
-
-    .div1 {
-        position: absolute;
-        top: 150%;
-        width: 100%;
-        height: 60%;
-
-        .projeto1 {
-            &[data-aberto="2"] {
-                background-color: black;
-                position: absolute;
-                z-index: 1;
-                opacity: 100%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                top: 48%;
-                width: 150px;
-                height: 340px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="1"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                transform: translate(-73.50%, -50%);
-                width: 150px;
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="3"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                width: 150px;
-                transform: translate(-27%, -50%);
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-        }
-
-        .p1 {
-            font-family: 'Geologica', sans-serif;
-            text-align: center;
-            margin-top: 85%;
-            color: white;
-            font-size: 25px;
-        }
-
-        .projeto2 {
-            &[data-aberto="2"] {
-                background-color: black;
-                position: absolute;
-                z-index: 1;
-                opacity: 100%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                top: 48%;
-                width: 150px;
-                height: 340px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="1"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                transform: translate(-73.50%, -50%);
-                width: 150px;
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="3"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                transform: translate(-27%, -50%);
-                width: 150px;
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-        }
-
-        .p2 {
-            font-family: 'Geologica', sans-serif;
-            text-align: center;
-            margin-top: 85%;
-            color: white;
-            font-size: 25px;
-        }
-
-        .projeto3 {
-            &[data-aberto="2"] {
-                background-color: black;
-                position: absolute;
-                z-index: 1;
-                opacity: 100%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                top: 48%;
-                width: 150px;
-                height: 340px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="1"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                transform: translate(-73.50%, -50%);
-                width: 150px;
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-
-            &[data-aberto="3"] {
-                background-color: black;
-                position: absolute;
-                z-index: 0;
-                opacity: 50%;
-                left: 50%;
-                width: 150px;
-                transform: translate(-27%, -50%);
-                top: 48%;
-                height: 280px;
-                border: 1px #00ab6e solid;
-                box-shadow: 1px 1px 10px #00ab6e;
-                border-radius: 5px;
-                transition: 300ms;
-            }
-        }
-
-        .p3 {
-            font-family: 'Geologica', sans-serif;
-            text-align: center;
-            margin-top: 85%;
-            color: white;
-            font-size: 25px;
-        }
-    }
-
-    .gr2 {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: -8%;
-        width: 200px;
-        height: 30px;
-    }
-
-    .projetos {
-        position: absolute;
-        font-size: 19px;
-        top: -50%;
-        left: 33%;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .cardapio3 {
-        position: absolute;
-        width: 50px;
-        left: 5%;
-    }
-
-    .cardapio4 {
-        position: absolute;
-        width: 50px;
-        left: 75%;
-    }
-
-    .btnmaior {
-        left: 90%;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        font-size: 20px;
-    }
-
-    .btnmenor {
-        left: 10%;
-        transform: translate(-50%, -50%);
-        top: 50%;
-        font-size: 20px;
-    }
-
-    .blocohabilidades {
-        &[data-aberto="open"] {
-            position: absolute;
-            top: 235%;
-            width: 100%;
-            height: 800px;
-            background: #0b0b0b;
-            transition: 800ms;
-        }
-
-        &[data-aberto="close"] {
-            position: absolute;
-            top: 210%;
-            width: 100%;
-            height: 463px;
-            background: #0b0b0b;
-            transition: 800ms;
-        }
-    }
-
-    .cardapio5 {
-        position: absolute;
-        top: 11%;
-        width: 60px;
-    }
-
-    .gr3 {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: 6%;
-        width: 210px;
-        height: 40px;
-    }
-
-    .habilidades {
-        position: absolute;
-        font-size: 15px;
-        left: 30%;
-        color: white;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .cardapio6 {
-        position: absolute;
-        top: 11%;
-        left: 73%;
-        width: 60px;
-    }
-
-    .texth1 {
-        &[data-aberto="close"] {
-            font-family: 'Roboto', sans-serif;
-            position: absolute;
-            color: white;
-            top: 120px;
-            left: 3%;
-            font-size: 20px;
-            background: #0b0b0b;
-            border-radius: 20px;
-            width: 90%;
-            height: 100px;
-            padding: 2%;
-            transition: 800ms;
-        }
-
-        &[data-aberto="open"] {
-            font-family: 'Roboto', sans-serif;
-            top: 120px;
-            position: absolute;
-            color: white;
-            left: 3%;
-            width: 90%;
-            font-size: 20px;
-            background: #0b0b0b;
-            border-radius: 20px;
-            height: 100px;
-            padding: 2%;
-            transition: 800ms;
-        }
-    }
-
-    .imghtml {
-        display: none;
-        position: absolute;
-        left: 105%;
-        bottom: 27%;
-    }
-
-    .texth2 {
-        &[data-aberto="close"] {
-            font-family: 'Roboto', sans-serif;
-            position: absolute;
-            color: white;
-            top: 280px;
-            left: 3%;
-            width: 90%;
-            font-size: 20px;
-            background: none;
-            border-radius: 20px;
-            opacity: 20%;
-            height: 100px;
-            padding: 2%;
-            transition: 800ms;
-        }
-
-        &[data-aberto="open"] {
-            font-family: 'Roboto', sans-serif;
-            position: absolute;
-            color: white;
-            top: 280px;
-            left: 3%;
-            width: 90%;
-            font-size: 20px;
-            background: #0b0b0b;
-            border-radius: 20px;
-            height: 100px;
-            padding: 2%;
-            transition: 800ms;
-        }
-
-    }
-
-    .imgcss {
-        display: none;
-        position: absolute;
-        left: 105%;
-        bottom: 27%;
-    }
-
-    .texth3 {
-        &[data-aberto="close"] {
-            opacity: 0%;
-            font-family: 'Roboto', sans-serif;
-            position: absolute;
-            color: white;
-            top: 280px;
-            left: 3%;
-            width: 90%;
-            font-size: 20px;
-            background: #0b0b0b;
-            border-radius: 20px;
-            height: 100px;
-            padding: 2%;
-            transition: 10ms;
-        }
-
-        &[data-aberto="open"] {
-            font-family: 'Roboto', sans-serif;
-            position: absolute;
-            color: white;
-            top: 440px;
-            left: 3%;
-            width: 90%;
-            font-size: 20px;
-            background: #0b0b0b;
-            border-radius: 20px;
-            height: 100px;
-            padding: 2%;
-            transition: 500ms;
-        }
-    }
-
-    .imgjs {
-        display: none;
-        position: absolute;
-        left: 105%;
-        bottom: 27%;
-    }
-
-    .btnv {
-        &[data-aberto="close"] {
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            top: 300px;
-            border: 1px #00ab6e solid;
-            cursor: pointer;
-            background: black;
-            color: white;
-            font-size: 15px;
-            padding: 10px;
-            border-radius: 10px;
-            font-family: 'Montserrat', sans-serif;
-            transition: 800ms;
-        }
-
-        &[data-aberto="open"] {
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            top: 620px;
-            border: 1px #00ab6e solid;
-            cursor: pointer;
-            background: black;
-            color: white;
-            font-size: 15px;
-            padding: 10px;
-            border-radius: 10px;
-            font-family: 'Montserrat', sans-serif;
-            transition: 800ms;
-        }
-    }
-
-    .blocofinal {
-        position: absolute;
-        background-color: #000000;
-        width: 100%;
-        height: 80px;
-        bottom: 0%;
-    }
-
-    .Fnome {
-        position: absolute;
-        color: white;
-        font-size: 10px;
-        top: 20%;
-        left: 5%;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .email {
-        position: absolute;
-        color: white;
-        font-size: 10px;
-        top: 50%;
-        left: 5%;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .imgredes1 {
-        position: absolute;
-        left: 30%;
-        top: 7%;
-        width: 20%;
-        padding: 0.10%;
-        border-radius: 10px;
-        background: #1f1f1f;
-    }
-
-    .imgredes2 {
-        position: absolute;
-        left: 53%;
-        top: 33%;
-        width: 20%;
-        padding: 0.10%;
-        border-radius: 10px;
-        background: #1f1f1f;
-    }
-
-    .imgredes3 {
-        position: absolute;
-        left: 75%;
-        top: 57%;
-        width: 20%;
-        padding: 0.10%;
-        border-radius: 10px;
-        background: #1f1f1f;
-    }
-
-    .i11 {
-        display: none;
-        color: white;
-    }
-
-    .section2 {
-        color: white;
-        position: absolute;
-        top: 62%;
-    }
-
-    .section3 {
-        position: absolute;
-        top: 122%;
-        z-index: 10;
-        color: white;
-    }
-
-    .section4 {
-        color: wheat;
-        position: absolute;
-        top: 200%;
-        z-index: 10;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .menu2 {
-        display: grid;
-    }
-
-    .iniciobtn {
-        display: inline-block;
-        position: absolute;
-        left: 7px;
-        top: 10px;
-        width: 23px;
-        height: 20px;
-    }
-
-    .sobrebtn {
-        display: inline-block;
-        position: absolute;
-        left: 5px;
-        top: 45px;
-        width: 27px;
-        height: 24px;
-    }
-
-    .projetosbtn {
-        display: inline-block;
-        position: absolute;
-        left: 7.50px;
-        top: 85px;
-        width: 23px;
-        height: 20px;
-    }
-
-    .habilidadesbtn {
-        display: inline-block;
-        position: absolute;
-        top: 125px;
-        left: 7px;
-        width: 25px;
-        height: 22px;
-    }
-
-    .btn1 {
-        display: inline-block;
-        text-decoration: none;
-        border: none;
-        color: rgb(255, 255, 255);
-        background: none;
-        margin-left: 10%;
-        margin-top: 10%;
-        cursor: pointer;
-        font-size: 15px
-    }
-
-    .btnnavbar {
-        display: inline-block;
-        position: absolute;
-        left: 84%;
-        background: #1f1f1f;
-        top: 31%;
-        width: 33px;
-        height: 30px;
-        border-radius: 10px;
-        transition: 800ms;
-    }
-
-    .imgbtnnavbar {
-        position: absolute;
-        display: inline-block;
-        width: 100%;
-        height: 100%;
-    }
-
-    .barra {
-        &[data-aberto="close"] {
-            display: flex;
-            z-index: 1;
-            top: 140%;
-            right: -32px;
-            position: absolute;
-            background: #000000;
-            border: 1px #00ab6e solid;
-            width: 40px;
-            height: 155px;
-            transition: 400ms;
-        }
-
-        &[data-aberto="open"] {
-            display: flex;
-            z-index: 1;
-            top: 140%;
-            right: -1%;
-            position: absolute;
-            background: #000000;
-            border: 1px #00ab6e solid;
-            width: 40px;
-            height: 155px;
-            transition: 400ms;
-        }
-    }
-
-    .redesF {
-        display: inline-block;
-        position: absolute;
-        left: 70%;
-        width: 25%;
+        width: 120%;
         height: 80%;
     }
 
+    .subbloco1 {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 125px;
+        top: 84%;
+    }
+
+    .imgsobre {
+        display: none;
+    }
+
+    .cardapio1 {
+        position: absolute;
+    }
+
+    .blocosobre {
+        height: 50%;
+    }
+
+    .gr1 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 170px;
+        height: 30px;
+    }
+
+    .txt123 {
+        color: white;
+    }
+
+    .cardapio2 {
+        position: absolute;
+    }
+
+    .sobre {
+        position: absolute;
+        width: 95%;
+        
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .prf{
+        font-size: 67%;
+        width: 300px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 70%;
+    }
+
+    .textsobre {
+        width: 100%;
+        font-size: 57%;
+    }
+
+    .div1 {
+        position: absolute;
+        top: 179%;
+        width: 300px;
+        height: 60%;
+
+        .projeto1 {
+            &[data-aberto="2"] {
+                background-color: black;
+                position: absolute;
+                z-index: 1;
+                opacity: 100%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                top: 48%;
+                width: 150px;
+                height: 340px;
+                border: 1px #00ab6e solid;
+                box-shadow: 1px 1px 10px #00ab6e;
+                border-radius: 5px;
+                transition: 300ms;
+            }
+
+            &[data-aberto="1"] {
+                background-color: black;
+                position: absolute;
+                z-index: 0;
+                opacity: 50%;
+                left: 50%;
+                transform: translate(-73.50%, -50%);
+                width: 150px;
+                top: 48%;
+                height: 280px;
+                border: 1px #00ab6e solid;
+                box-shadow: 1px 1px 10px #00ab6e;
+                border-radius: 5px;
+                transition: 300ms;
+            }
+
+            &[data-aberto="3"] {
+                background-color: black;
+                position: absolute;
+                z-index: 0;
+                opacity: 50%;
+                left: 50%;
+                width: 150px;
+                transform: translate(-27%, -50%);
+                top: 48%;
+                height: 280px;
+                border: 1px #00ab6e solid;
+                box-shadow: 1px 1px 10px #00ab6e;
+                border-radius: 5px;
+                transition: 300ms;
+            }
+        }
+
+        .p1 {
+            font-family: 'Geologica', sans-serif;
+            text-align: center;
+            margin-top: 85%;
+            color: white;
+            font-size: 25px;
+        }
+
+        .projeto2 {
+            &[data-aberto="2"] {
+                background-color: black;
+                position: absolute;
+                z-index: 1;
+                opacity: 100%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                top: 48%;
+                width: 150px;
+                height: 340px;
+                border: 1px #00ab6e solid;
+                box-shadow: 1px 1px 10px #00ab6e;
+                border-radius: 5px;
+                transition: 300ms;
+            }
+
+            &[data-aberto="1"] {
+                background-color: black;
+                position: absolute;
+                z-index: 0;
+                opacity: 50%;
+                left: 50%;
+                transform: translate(-73.50%, -50%);
+                width: 150px;
+                top: 48%;
+                height: 280px;
+                border: 1px #00ab6e solid;
+                box-shadow: 1px 1px 10px #00ab6e;
+                border-radius: 5px;
+                transition: 300ms;
+            }
+
+            &[data-aberto="3"] {
+                background-color: black;
+                position: absolute;
+                z-index: 0;
+                opacity: 50%;
+                left: 50%;
+                transform: translate(-27%, -50%);
+                width: 150px;
+                top: 48%;
+                height: 280px;
+                border: 1px #00ab6e solid;
+                box-shadow: 1px 1px 10px #00ab6e;
+                border-radius: 5px;
+                transition: 300ms;
+            }
+        }
+
+        .p2 {
+            font-family: 'Geologica', sans-serif;
+            text-align: center;
+            margin-top: 85%;
+            color: white;
+            font-size: 25px;
+        }
+
+        .projeto3 {
+            &[data-aberto="2"] {
+                background-color: black;
+                position: absolute;
+                z-index: 1;
+                opacity: 100%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                top: 48%;
+                width: 150px;
+                height: 340px;
+                border: 1px #00ab6e solid;
+                box-shadow: 1px 1px 10px #00ab6e;
+                border-radius: 5px;
+                transition: 300ms;
+            }
+
+            &[data-aberto="1"] {
+                background-color: black;
+                position: absolute;
+                z-index: 0;
+                opacity: 50%;
+                left: 50%;
+                transform: translate(-73.50%, -50%);
+                width: 150px;
+                top: 48%;
+                height: 280px;
+                border: 1px #00ab6e solid;
+                box-shadow: 1px 1px 10px #00ab6e;
+                border-radius: 5px;
+                transition: 300ms;
+            }
+
+            &[data-aberto="3"] {
+                background-color: black;
+                position: absolute;
+                z-index: 0;
+                opacity: 50%;
+                left: 50%;
+                width: 150px;
+                transform: translate(-27%, -50%);
+                top: 48%;
+                height: 280px;
+                border: 1px #00ab6e solid;
+                box-shadow: 1px 1px 10px #00ab6e;
+                border-radius: 5px;
+                transition: 300ms;
+            }
+        }
+
+        .p3 {
+            font-family: 'Geologica', sans-serif;
+            text-align: center;
+            margin-top: 85%;
+            color: white;
+            font-size: 25px;
+        }
+    }
+
+    .gr2 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: -8%;
+        width: 200px;
+        height: 30px;
+    }
+
+    .projetos {
+        position: absolute;
+        font-size: 19px;
+        top: -50%;
+        left: 33%;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .cardapio3 {
+        position: absolute;
+        width: 50px;
+        left: 5%;
+    }
+
+    .cardapio4 {
+        position: absolute;
+        width: 50px;
+        left: 75%;
+    }
+
+    .btnmaior {
+        left: 90%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        font-size: 20px;
+    }
+
+    .btnmenor {
+        left: 5%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        font-size: 20px;
+    }
+
+    .blocohabilidades {
+        &[data-aberto="open"] {
+            position: absolute;
+            top: 235%;
+            width: 100%;
+            height: 800px;
+            background: #0b0b0b;
+            transition: 800ms;
+        }
+
+        &[data-aberto="close"] {
+            position: absolute;
+            top: 210%;
+            width: 100%;
+            height: 463px;
+            background: #0b0b0b;
+            transition: 800ms;
+        }
+    }
+
+    .cardapio5 {
+        position: absolute;
+        top: 11%;
+        width: 60px;
+    }
+
+    .gr3 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        top: 6%;
+        width: 210px;
+        height: 40px;
+    }
+
+    .habilidades {
+        position: absolute;
+        font-size: 15px;
+        left: 30%;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .cardapio6 {
+        position: absolute;
+        top: 11%;
+        left: 73%;
+        width: 60px;
+    }
+
+    .texth1 {
+        &[data-aberto="close"] {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 120px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            width: 90%;
+            height: 100px;
+            padding: 2%;
+            transition: 800ms;
+        }
+
+        &[data-aberto="open"] {
+            font-family: 'Roboto', sans-serif;
+            top: 160px;
+            position: absolute;
+            color: white;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            height: 100px;
+            padding: 2%;
+            transition: 800ms;
+        }
+    }
+
+    .imghtml {
+        display: none;
+        position: absolute;
+        left: 105%;
+        bottom: 27%;
+    }
+
+    .texth2 {
+        &[data-aberto="close"] {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 280px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: none;
+            border-radius: 20px;
+            opacity: 20%;
+            height: 100px;
+            padding: 2%;
+            transition: 800ms;
+        }
+
+        &[data-aberto="open"] {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 310px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            height: 100px;
+            padding: 2%;
+            transition: 800ms;
+        }
+
+    }
+
+    .imgcss {
+        display: none;
+        position: absolute;
+        left: 105%;
+        bottom: 27%;
+    }
+
+    .texth3 {
+        &[data-aberto="close"] {
+            opacity: 0%;
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 280px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            height: 100px;
+            padding: 2%;
+            transition: 10ms;
+        }
+
+        &[data-aberto="open"] {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 450px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            height: 100px;
+            padding: 2%;
+            transition: 500ms;
+        }
+    }
+
+    .imgjs {
+        display: none;
+        position: absolute;
+        left: 105%;
+        bottom: 27%;
+    }
+
+    .btnv {
+        &[data-aberto="close"] {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 300px;
+            border: 1px #00ab6e solid;
+            cursor: pointer;
+            background: black;
+            color: white;
+            font-size: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: 'Montserrat', sans-serif;
+            transition: 800ms;
+        }
+
+        &[data-aberto="open"] {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 620px;
+            border: 1px #00ab6e solid;
+            cursor: pointer;
+            background: black;
+            color: white;
+            font-size: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: 'Montserrat', sans-serif;
+            transition: 800ms;
+        }
+    }
+
+    .blocofinal {
+        position: absolute;
+        background-color: #000000;
+        width: 100%;
+        height: 80px;
+        bottom: 0%;
+    }
+
+    .Fnome {
+        position: absolute;
+        color: white;
+        font-size: 10px;
+        top: 20%;
+        left: 5%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .email {
+        position: absolute;
+        color: white;
+        font-size: 10px;
+        top: 50%;
+        left: 5%;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .imgredes1 {
+        position: absolute;
+        left: 1%;
+        top: 7%;
+        width: 30px;
+        padding: 0.10%;
+        border-radius: 10px;
+        background: #1f1f1f;
+    }
+
+    .imgredes2 {
+        position: absolute;
+        left: 34%;
+        top: 34%;
+        width: 30px;
+        padding: 0.10%;
+        border-radius: 10px;
+        background: #1f1f1f;
+    }
+
+    .imgredes3 {
+        position: absolute;
+        left: 67%;
+        top: 57%;
+        width: 30px;
+        padding: 0.10%;
+        border-radius: 10px;
+        background: #1f1f1f;
+    }
+
+    .i11 {
+        display: none;
+        color: white;
+    }
+
+    .section2 {
+        color: white;
+        position: absolute;
+        top: 62%;
+    }
+
+    .section3 {
+        position: absolute;
+        top: 122%;
+        z-index: 10;
+        color: white;
+    }
+
+    .section4 {
+        color: wheat;
+        position: absolute;
+        top: 200%;
+        z-index: 10;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu2 {
+        display: grid;
+    }
+
+    .iniciobtn {
+        display: inline-block;
+        position: absolute;
+        left: 7px;
+        top: 10px;
+        width: 23px;
+        height: 20px;
+    }
+
+    .sobrebtn {
+        display: inline-block;
+        position: absolute;
+        left: 5px;
+        top: 45px;
+        width: 27px;
+        height: 24px;
+    }
+
+    .projetosbtn {
+        display: inline-block;
+        position: absolute;
+        left: 7.50px;
+        top: 85px;
+        width: 23px;
+        height: 20px;
+    }
+
+    .habilidadesbtn {
+        display: inline-block;
+        position: absolute;
+        top: 125px;
+        left: 7px;
+        width: 25px;
+        height: 22px;
+    }
+
+    .btn1 {
+        display: inline-block;
+        text-decoration: none;
+        border: none;
+        color: rgb(255, 255, 255);
+        background: none;
+        margin-left: 10%;
+        margin-top: 10%;
+        cursor: pointer;
+        font-size: 15px
+    }
+
+    .btnnavbar {
+        display: inline-block;
+        position: absolute;
+        left: 84%;
+        background: #1f1f1f;
+        top: 31%;
+        width: 33px;
+        height: 30px;
+        border-radius: 10px;
+        transition: 800ms;
+    }
+
+    .imgbtnnavbar {
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .barra {
+        &[data-aberto="close"] {
+            display: flex;
+            z-index: 1;
+            top: 140%;
+            right: -32px;
+            position: absolute;
+            background: #000000;
+            border: 1px #00ab6e solid;
+            width: 40px;
+            height: 155px;
+            transition: 400ms;
+        }
+
+        &[data-aberto="open"] {
+            display: flex;
+            z-index: 1;
+            top: 140%;
+            right: -1%;
+            position: absolute;
+            background: #000000;
+            border: 1px #00ab6e solid;
+            width: 40px;
+            height: 155px;
+            transition: 400ms;
+        }
+    }
+
+    .redesF {
+        display: inline-block;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 85%;
+        width: 100px;
+        height: 100%;
+    }
+
     .reactimg {
         display: none;
         position: absolute;
@@ -1426,259 +742,142 @@
         width: 500px;
         height: 500px;
     }
-
 }
 
-@media only screen and (min-width: 769px) and (max-width: 992px) {
 
-    body {
-        margin: 0;
-        padding: 0;
-        background: #0f0f0f;
-    }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
 
-    .navbar {
-        position: fixed;
-        width: 100%;
-        height: 10%;
-        background-color: #0b0b0b;
-        box-shadow: 0.25px 0.25px 5px rgb(158, 158, 158);
-        z-index: 2;
+    .reactimg{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 77%;
+        width: 350px;
+        height: 350px;
     }
 
     .menu {
         position: absolute;
-        width: 50%;
-        left: 45%;
+        width: 43%;
+        right: 3%;
         top: 35%;
-    }
-
-    .menu2 {
-        display: none;
-    }
-
-    .btnnavbar {
-        display: none;
-    }
-
-    .imgbtnnavbar {
-        display: none;
-    }
-
-    .barra {
-        display: none;
-    }
-
-    .btn1 {
-        display: none;
-    }
-
-    .iniciobtn {
-        display: none;
-    }
-
-    .sobrebtn {
-        display: none;
-    }
-
-    .projetosbtn {
-        display: none;
-    }
-
-    .habilidadesbtn {
-        display: none;
-    }
-
-    .btn {
-        text-decoration: none;
-        border: none;
-        color: rgb(255, 255, 255);
-        background: none;
-        margin-left: 5%;
-        margin-top: 3%;
-        cursor: pointer;
-        font-size: 19px;
-    }
-
-    .stylebtn {
-        font-family: 'Belanosima', sans-serif;
-    }
-
-    .btn :hover {
-        transition: 100ms;
-        text-decoration: underline 2px #00ab6e;
-    }
-
-    .textmenu {
-        font-family: 'Roboto', sans-serif;
-        position: absolute;
-        color: white;
-        font-size: 35px;
-        left: 10%;
-        top: 20%;
-    }
-
-    .nomeD {
-        color: #00ab6e;
-        font-family: 'Roboto', sans-serif;
-    }
-
-    .nome {
-        color: aliceblue;
-        font-family: 'Poppins', sans-serif;
-        font-size: 30px;
     }
 
     .bloco1 {
+        display: flex;
+        flex-direction: column;
         position: absolute;
-        width: 35%;
-        height: 60%;
-        top: 35%;
-        left: 17%;
+        width: 500px;
+        height: 150px;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 35%;
     }
 
-    .ds1 {
-        position: absolute;
-        color: #00ab6e;
-        font-family: 'Montserrat', sans-serif;
-        top: 12%;
-        text-shadow: 1px 1px 10px #00ab6e;
-        font-size: 18px;
-    }
-
-    .subbloco1 {
-        position: absolute;
-        top: 25%;
-        width: 130%;
-        height: 20%;
-    }
-
-    .imgredes {
-        width: 7%;
-        padding: 1%;
-        border-radius: 10px;
-        background: #1f1f1f;
-    }
-
-    .textsobre {
+    .nome {
         color: white;
-        width: 66%;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 0%;
+        font-size: 48px;
     }
 
-    .reactimg {
+    .gr1 {
         position: absolute;
-        top: 20%;
-        left: 48%;
-        width: 400px;
-        height: 400px;
+        transform: translate(-50%,-50%);
+        left: 35%;
+        top: 10%;
+        width: 200px;
+        height: 30px;
     }
 
     .imgsobre {
         position: absolute;
         width: 250px;
         height: 280px;
-        left: 70%;
-        top: 20%;
+        transform: translate(-50%, -50%);
+        left: 83%;
+        top: 50%;
         border-radius: 2px;
-    }
-
-    .blocosobre {
-        position: absolute;
-        top: 90%;
-        background-color: #0b0b0b;
-        width: 100%;
-        height: 60%;
     }
 
     .sobre {
         position: absolute;
-        font-size: 17px;
-        left: 3%;
-        top: 40%;
+        width: 68%;
+        font-size: 15px;
+        transform: translate(-50%, -50%);
+        left: 35%;
+        top: 50%;
         color: white;
         font-family: 'Montserrat', sans-serif;
     }
 
-    .txt123 {
-        font-family: 'Roboto', sans-serif;
-        position: absolute;
+    .prf{
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
         color: white;
-        left: 55px;
-        top: -20px;
-    }
-
-    .gr1 {
         position: absolute;
-        left: 25%;
-        top: 20%;
-        width: 200px;
-        height: 30px;
-    }
-
-    .cardapio1 {
-        position: absolute;
-        width: 50px;
-        left: 0px;
-    }
-
-    .cardapio2 {
-        position: absolute;
-        width: 50px;
-        left: 125px;
-    }
-
-    .redesF {
-        display: none;
+        transform: translate(-50%, -50%);
+        left: 35%;
+        top: 70%;
     }
 
     .div1 {
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 200%;
+        width: 80%;
+        height: 550px;
+        position: absolute;
         .projeto1 {
             &[data-aberto="2"] {
                 background-color: black;
                 position: absolute;
                 z-index: 1;
                 opacity: 100%;
-                top: 166%;
+                transform: translate(-50%,-50%);
+                left: 50%;
+                top: 43%;
                 width: 250px;
                 height: 350px;
-                left: 40%;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
                 transition: 300ms;
             }
-
+    
             &[data-aberto="1"] {
                 background-color: black;
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                top: 170%;
+                transform: translate(-50%,-50%);
+                left: 27%;
+                top: 50%;
                 width: 250px;
                 height: 350px;
-                left: 17%;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
                 transition: 300ms;
             }
-
+    
             &[data-aberto="3"] {
                 background-color: black;
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                top: 170%;
+                transform: translate(-50%,-50%);
+                top: 50%;
+                left: 73%;
                 width: 250px;
                 height: 350px;
-                left: 63%;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
                 transition: 300ms;
             }
         }
-
+    
         .p1 {
             font-family: 'Geologica', sans-serif;
             text-align: center;
@@ -1686,54 +885,57 @@
             color: white;
             font-size: 25px;
         }
-
+    
         .projeto2 {
             &[data-aberto="2"] {
                 background-color: black;
                 position: absolute;
                 z-index: 1;
                 opacity: 100%;
-                top: 166%;
+                transform: translate(-50%,-50%);
+                left: 50%;
+                top: 43%;
                 width: 250px;
                 height: 350px;
-                left: 40%;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
                 transition: 300ms;
             }
-
+    
             &[data-aberto="1"] {
                 background-color: black;
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                top: 170%;
+                transform: translate(-50%,-50%);
+                left: 27%;
+                top: 50%;
                 width: 250px;
                 height: 350px;
-                left: 17%;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
                 transition: 300ms;
             }
-
+    
             &[data-aberto="3"] {
                 background-color: black;
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                top: 170%;
+                transform: translate(-50%,-50%);
+                top: 50%;
+                left: 73%;
                 width: 250px;
                 height: 350px;
-                left: 63%;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
                 transition: 300ms;
             }
         }
-
+    
         .p2 {
             font-family: 'Geologica', sans-serif;
             text-align: center;
@@ -1741,54 +943,57 @@
             color: white;
             font-size: 25px;
         }
-
+    
         .projeto3 {
             &[data-aberto="2"] {
                 background-color: black;
                 position: absolute;
                 z-index: 1;
                 opacity: 100%;
-                top: 166%;
+                transform: translate(-50%,-50%);
+                left: 50%;
+                top: 43%;
                 width: 250px;
                 height: 350px;
-                left: 40%;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
                 transition: 300ms;
             }
-
+    
             &[data-aberto="1"] {
                 background-color: black;
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                top: 170%;
+                transform: translate(-50%,-50%);
+                left: 27%;
+                top: 50%;
                 width: 250px;
                 height: 350px;
-                left: 17%;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
                 transition: 300ms;
             }
-
+    
             &[data-aberto="3"] {
                 background-color: black;
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                top: 170%;
+                transform: translate(-50%,-50%);
+                top: 50%;
+                left: 73%;
                 width: 250px;
                 height: 350px;
-                left: 63%;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
                 border-radius: 5px;
                 transition: 300ms;
             }
         }
-
+    
         .p3 {
             font-family: 'Geologica', sans-serif;
             text-align: center;
@@ -1798,115 +1003,49 @@
         }
     }
 
-    .btnmaior {
-        border: 1px red solid;
-        cursor: pointer;
-        position: absolute;
-        left: 96%;
-        top: 197%;
-        border: none;
-        background: none;
-        border-radius: 3px;
-        color: white;
-        font-size: 30px;
-    }
-
-    .btnmenor {
-        cursor: pointer;
-        position: absolute;
-        left: 12%;
-        top: 197%;
-        border: none;
-        background: none;
-        border-radius: 3px;
-        color: white;
-        font-size: 30px;
-    }
-
     .gr2 {
         position: absolute;
-        left: 43.50%;
-        top: 155%;
+        transform: translate(-50%, -50%);
+        left:50%;
+        top: 3.50%;
         width: 200px;
         height: 30px;
     }
 
-    .projetos {
+    .btnmaior2 {
+        cursor: pointer;
         position: absolute;
-        font-size: 19px;
-        top: -50%;
-        left: 33%;
+        transform: translate(-50%, -50%);
+        left: 99%;
+        top: 50%;
+        border: none;
+        background: none;
+        border-radius: 3px;
         color: white;
-        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
     }
-
-    .cardapio3 {
+    
+    .btnmenor {
+        cursor: pointer;
         position: absolute;
-        width: 50px;
-        left: 5%;
-    }
-
-    .cardapio4 {
-        position: absolute;
-        width: 50px;
-        left: 75%;
-    }
-
-    .blocohabilidades {
-        &[data-aberto="open"] {
-            position: absolute;
-            top: 235%;
-            width: 100%;
-            height: 800px;
-            background: #0b0b0b;
-            transition: 800ms;
-        }
-
-        &[data-aberto="close"] {
-            position: absolute;
-            top: 235%;
-            width: 100%;
-            height: 463px;
-            background: #0b0b0b;
-            transition: 800ms;
-        }
-    }
-
-    .cardapio5 {
-        position: absolute;
-        top: 11%;
-    }
-
-    .gr3 {
-        position: absolute;
-        left: 50%;
-        transform: translate(-40%, -50%);
-        top: 10%;
-        width: 290px;
-        height: 50px;
-    }
-
-    .habilidades {
-        position: absolute;
-        font-size: 19px;
-        left: 30%;
+        transform: translate(-50%, -50%);
+        left: 1%;
+        top: 50%;
+        border: none;
+        background: none;
+        border-radius: 3px;
         color: white;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .cardapio6 {
-        position: absolute;
-        top: 11%;
-        left: 73%;
+        font-size: 30px;
     }
 
     .texth1 {
         &[data-aberto="close"] {
+            transform: translate(-50%, -50%);
+            left: 45%;
             font-family: 'Roboto', sans-serif;
             position: absolute;
             color: white;
             top: 150px;
-            left: 25%;
             font-size: 20px;
             background: #0b0b0b;
             border-radius: 20px;
@@ -1915,13 +1054,14 @@
             padding: 2%;
             transition: 800ms;
         }
-
+    
         &[data-aberto="open"] {
             font-family: 'Roboto', sans-serif;
             position: absolute;
             color: white;
             top: 200px;
-            left: 25%;
+            transform: translate(-50%, -50%);
+            left: 45%;
             font-size: 20px;
             background: #0b0b0b;
             border-radius: 20px;
@@ -1931,20 +1071,21 @@
             transition: 800ms;
         }
     }
-
+    
     .imghtml {
         position: absolute;
         left: 105%;
         bottom: 27%;
     }
-
+    
     .texth2 {
         &[data-aberto="close"] {
             font-family: 'Roboto', sans-serif;
             position: absolute;
             color: white;
             top: 280px;
-            left: 25%;
+            transform: translate(-50%, -50%);
+            left: 45%;
             font-size: 20px;
             background: none;
             border-radius: 20px;
@@ -1954,13 +1095,14 @@
             padding: 2%;
             transition: 800ms;
         }
-
+    
         &[data-aberto="open"] {
             font-family: 'Roboto', sans-serif;
             position: absolute;
             color: white;
             top: 330px;
-            left: 25%;
+            transform: translate(-50%, -50%);
+            left: 45%;
             font-size: 20px;
             background: #0b0b0b;
             border-radius: 20px;
@@ -1969,15 +1111,15 @@
             padding: 2%;
             transition: 800ms;
         }
-
+    
     }
-
+    
     .imgcss {
         position: absolute;
         left: 105%;
         bottom: 27%;
     }
-
+    
     .texth3 {
         &[data-aberto="close"] {
             opacity: 0%;
@@ -1985,7 +1127,8 @@
             position: absolute;
             color: white;
             top: 280px;
-            left: 25%;
+            transform: translate(-50%, -50%);
+            left: 45%;
             font-size: 20px;
             background: #0b0b0b;
             border-radius: 20px;
@@ -1994,13 +1137,14 @@
             padding: 2%;
             transition: 10ms;
         }
-
+    
         &[data-aberto="open"] {
             font-family: 'Roboto', sans-serif;
             position: absolute;
             color: white;
             top: 470px;
-            left: 25%;
+            transform: translate(-50%, -50%);
+            left: 45%;
             font-size: 20px;
             background: #0b0b0b;
             border-radius: 20px;
@@ -2010,181 +1154,10 @@
             transition: 500ms;
         }
     }
-
+    
     .imgjs {
         position: absolute;
         left: 105%;
         bottom: 27%;
-    }
-
-    .btnv {
-        &[data-aberto="close"] {
-            position: absolute;
-            left: 47%;
-            top: 300px;
-            border: 1px #00ab6e solid;
-            cursor: pointer;
-            background: black;
-            color: white;
-            font-size: 15px;
-            padding: 10px;
-            border-radius: 10px;
-            font-family: 'Montserrat', sans-serif;
-            transition: 800ms;
-        }
-
-        &[data-aberto="open"] {
-            position: absolute;
-            left: 47%;
-            top: 620px;
-            border: 1px #00ab6e solid;
-            cursor: pointer;
-            background: black;
-            color: white;
-            font-size: 15px;
-            padding: 10px;
-            border-radius: 10px;
-            font-family: 'Montserrat', sans-serif;
-            transition: 800ms;
-        }
-    }
-
-    .blocofinal {
-        position: absolute;
-        background-color: #000000;
-        width: 100%;
-        height: 100px;
-        bottom: 0%;
-    }
-
-    .Fnome {
-        position: absolute;
-        color: white;
-        top: 5%;
-        left: 15%;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .email {
-        position: absolute;
-        color: white;
-        top: 38%;
-        left: 15%;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .imgredes1 {
-        position: absolute;
-        left: 70%;
-        top: 35%;
-        width: 2%;
-        padding: 0.10%;
-        border-radius: 10px;
-        background: #1f1f1f;
-    }
-
-    .imgredes2 {
-        position: absolute;
-        left: 73%;
-        top: 35%;
-        width: 2%;
-        padding: 0.10%;
-        border-radius: 10px;
-        background: #1f1f1f;
-    }
-
-    .imgredes3 {
-        position: absolute;
-        left: 76%;
-        top: 35%;
-        width: 2%;
-        padding: 0.10%;
-        border-radius: 10px;
-        background: #1f1f1f;
-    }
-
-    .i11 {
-        display: none;
-        color: white;
-    }
-
-    .section2 {
-        color: white;
-        position: absolute;
-        top: 72%;
-    }
-
-    .section3 {
-        position: absolute;
-        top: 140%;
-        z-index: 10;
-        color: white;
-    }
-
-    .section4 {
-        color: wheat;
-        position: absolute;
-        top: 200%;
-        z-index: 10;
-    }
-
-    html {
-        scroll-behavior: smooth;
-    }
-
-    ::-webkit-scrollbar {
-        width: 10px;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background-color: #606060;
-        border-radius: 10px;
-    }
-}
-
-
-@media screen and (min-width:900px) and (max-width: 992px){
-    .btnmaior {
-        cursor: pointer;
-        position: absolute;
-        left: 92%;
-        top: 197%;
-        border: none;
-        background: none;
-        border-radius: 3px;
-        color: white;
-        font-size: 30px;
-    }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1309px){
-    .nome {
-        color: aliceblue;
-        font-family: 'Poppins', sans-serif;
-        font-size: 40px;
-    }
-
-    .ds1 {
-        position: absolute;
-        color: #00ab6e;
-        font-family: 'Montserrat', sans-serif;
-        top: 14%;
-        text-shadow: 1px 1px 10px #00ab6e;
-        font-size: 25px;
-    }
-
-    .subbloco1 {
-        position: absolute;
-        top: 28%;
-        width: 120%;
-        height: 20%;
-    }
-
-    .reactimg{
-        position: absolute;
-        top: 20%;
-        right: 0%;
-        width: 500px;
-        height: 500px;
     }
 }
