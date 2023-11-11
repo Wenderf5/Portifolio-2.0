@@ -1,5 +1,58 @@
 @media only screen and (max-width: 767px) {
 
+    .imgp1{
+        width: 90%;
+        height: 40%;
+        margin-top: 5%;
+        border-radius: 10px;
+    }
+    
+    .tltp1{
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 3%;
+        font-size: 17px;
+        color: white;
+    }
+    
+    .txtp1{
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 3%;
+        color: white;
+        width: 90%;
+        text-align: center;
+    }
+    .opp1{
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        margin-top: 4%;
+        display: flex;
+        color: white;
+        width: 85%;
+        justify-content: space-between;
+    }
+    .opp2{
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        display: flex;
+        color: white;
+        margin-top: 32%;
+        width: 85%;
+        justify-content: space-between;
+    }
+    .opp3{
+        font-size: 11px;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        display: flex;
+        color: white;
+        margin-top: 32%;
+        width: 85%;
+        justify-content: space-between;
+    }
+
     .navbar {
         height: 11%;
     }
@@ -120,7 +173,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 top: 48%;
-                width: 150px;
+                width: 200px;
                 height: 340px;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
@@ -133,9 +186,9 @@
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                left: 50%;
+                left: 60%;
                 transform: translate(-73.50%, -50%);
-                width: 150px;
+                width: 200px;
                 top: 48%;
                 height: 280px;
                 border: 1px #00ab6e solid;
@@ -149,8 +202,8 @@
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                left: 50%;
-                width: 150px;
+                left: 40%;
+                width: 200px;
                 transform: translate(-27%, -50%);
                 top: 48%;
                 height: 280px;
@@ -178,7 +231,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 top: 48%;
-                width: 150px;
+                width: 200px;
                 height: 340px;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
@@ -191,9 +244,9 @@
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                left: 50%;
+                left: 60%;
                 transform: translate(-73.50%, -50%);
-                width: 150px;
+                width: 200px;
                 top: 48%;
                 height: 280px;
                 border: 1px #00ab6e solid;
@@ -207,9 +260,9 @@
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                left: 50%;
+                left: 40%;
                 transform: translate(-27%, -50%);
-                width: 150px;
+                width: 200px;
                 top: 48%;
                 height: 280px;
                 border: 1px #00ab6e solid;
@@ -218,7 +271,6 @@
                 transition: 300ms;
             }
         }
-
         .p2 {
             font-family: 'Geologica', sans-serif;
             text-align: center;
@@ -236,7 +288,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 top: 48%;
-                width: 150px;
+                width: 200px;
                 height: 340px;
                 border: 1px #00ab6e solid;
                 box-shadow: 1px 1px 10px #00ab6e;
@@ -249,9 +301,9 @@
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                left: 50%;
+                left: 60%;
                 transform: translate(-73.50%, -50%);
-                width: 150px;
+                width: 200px;
                 top: 48%;
                 height: 280px;
                 border: 1px #00ab6e solid;
@@ -265,8 +317,8 @@
                 position: absolute;
                 z-index: 0;
                 opacity: 50%;
-                left: 50%;
-                width: 150px;
+                left: 40%;
+                width: 200px;
                 transform: translate(-27%, -50%);
                 top: 48%;
                 height: 280px;
@@ -747,6 +799,59 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
 
+    .imgp1{
+        width: 90%;
+        height: 40%;
+        margin-top: 5%;
+        border-radius: 10px;
+    }
+    
+    .tltp1{
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 5%;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .txtp1{
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 5%;
+        color: white;
+        width: 90%;
+        text-align: center;
+    }
+    .opp1{
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        display: flex;
+        color: white;
+        margin-top: 8%;
+        width: 90%;
+        justify-content: space-between;
+    }
+    .opp2{
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        display: flex;
+        color: white;
+        margin-top: 25%;
+        width: 90%;
+        justify-content: space-between;
+    }
+    .opp3{
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        display: flex;
+        color: white;
+        margin-top: 25%;
+        width: 90%;
+        justify-content: space-between;
+    }
+
     .reactimg{
         position: absolute;
         transform: translate(-50%,-50%);
@@ -993,7 +1098,6 @@
                 transition: 300ms;
             }
         }
-    
         .p3 {
             font-family: 'Geologica', sans-serif;
             text-align: center;
