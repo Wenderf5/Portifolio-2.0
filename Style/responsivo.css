@@ -26,7 +26,7 @@
         font-size: 11px;
         font-family: 'Montserrat', sans-serif;
         cursor: pointer;
-        margin-top: 10%;
+        margin-top: 7%;
         display: flex;
         color: white;
         width: 85%;
@@ -38,7 +38,7 @@
         cursor: pointer;
         display: flex;
         color: white;
-        margin-top: 24%;
+        margin-top: 21%;
         width: 85%;
         justify-content: space-between;
     }
@@ -48,7 +48,7 @@
         cursor: pointer;
         display: flex;
         color: white;
-        margin-top: 24%;
+        margin-top: 21%;
         width: 85%;
         justify-content: space-between;
     }
@@ -88,7 +88,7 @@
     }
 
     .btnTrabalhar1{
-        margin-top: 65%;
+        margin-top: 55%;
         width: 80%;
     }
 
