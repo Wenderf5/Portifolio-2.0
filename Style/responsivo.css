@@ -454,7 +454,7 @@
             font-family: 'Roboto', sans-serif;
             position: absolute;
             color: white;
-            top: 120px;
+            top: 150px;
             transform: translate(-50%, -50%);
             left: 50%;
             font-size: 20px;
@@ -468,7 +468,7 @@
 
         &[data-aberto="open"] {
             font-family: 'Roboto', sans-serif;
-            top: 160px;
+            top: 170px;
             position: absolute;
             color: white;
             transform: translate(-50%, -50%);
@@ -495,7 +495,7 @@
             font-family: 'Roboto', sans-serif;
             position: absolute;
             color: white;
-            top: 280px;
+            top: 300px;
             transform: translate(-50%, -50%);
             left: 50%;
             width: 90%;
