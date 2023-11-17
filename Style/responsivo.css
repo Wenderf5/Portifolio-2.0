@@ -9,7 +9,7 @@
     
     .tltp1{
         font-family: 'Montserrat', sans-serif;
-        margin-top: 0%;
+        margin-top: 8%;
         font-size: 17px;
         color: white;
     }
@@ -17,7 +17,7 @@
     .txtp1{
         font-size: 12px;
         font-family: 'Montserrat', sans-serif;
-        margin-top: 3%;
+        margin-top: 5%;
         color: white;
         width: 90%;
         text-align: center;
@@ -26,7 +26,7 @@
         font-size: 11px;
         font-family: 'Montserrat', sans-serif;
         cursor: pointer;
-        margin-top: 4%;
+        margin-top: 10%;
         display: flex;
         color: white;
         width: 85%;
@@ -38,7 +38,7 @@
         cursor: pointer;
         display: flex;
         color: white;
-        margin-top: 29%;
+        margin-top: 24%;
         width: 85%;
         justify-content: space-between;
     }
@@ -48,7 +48,7 @@
         cursor: pointer;
         display: flex;
         color: white;
-        margin-top: 29%;
+        margin-top: 24%;
         width: 85%;
         justify-content: space-between;
     }
@@ -73,6 +73,23 @@
         top: 50%;
         width: 90%;
         height: 50%;
+    }
+
+    .btnTrabalhar{
+        cursor: pointer;
+        border: 1px #00ab6e solid;
+        background-color: #050505;
+        color: white;
+        width: 100%;
+        height: 50px;
+        border-radius:30px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+    }
+
+    .btnTrabalhar1{
+        margin-top: 65%;
+        width: 80%;
     }
 
     .nome {
@@ -100,7 +117,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 125px;
-        top: 84%;
+        top: 60%;
     }
 
     .imgsobre {
@@ -134,7 +151,7 @@
     .sobre {
         position: absolute;
         width: 95%;
-        
+        font-size: 23px;
         transform: translate(-50%, -50%);
         left: 50%;
         top: 50%;
@@ -143,14 +160,14 @@
     }
 
     .prf{
-        font-size: 67%;
-        width: 300px;
+        font-size: 80%;
+        width: 350px;
         font-family: 'Montserrat', sans-serif;
         color: white;
         position: absolute;
         transform: translate(-50%, -50%);
         left: 50%;
-        top: 70%;
+        top: 80%;
     }
 
     .textsobre {
@@ -385,7 +402,7 @@
     .blocohabilidades {
         &[data-aberto="open"] {
             position: absolute;
-            top: 235%;
+            top: 210%;
             width: 100%;
             height: 800px;
             background: #0b0b0b;
@@ -413,7 +430,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         top: 6%;
-        width: 210px;
+        width: 250px;
         height: 40px;
     }
 
@@ -781,7 +798,7 @@
         position: absolute;
         transform: translate(-50%, -50%);
         top: 50%;
-        left: 85%;
+        left: 80%;
         width: 100px;
         height: 100%;
     }
