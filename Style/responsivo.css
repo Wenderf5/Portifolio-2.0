@@ -404,7 +404,7 @@
             position: absolute;
             top: 210%;
             width: 100%;
-            height: 800px;
+            height: 1350px;
             background: #0b0b0b;
             transition: 800ms;
         }
@@ -429,7 +429,7 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-        top: 6%;
+        top: 50px;
         width: 250px;
         height: 40px;
     }
@@ -575,6 +575,111 @@
         bottom: 27%;
     }
 
+    .texth4 {
+        &[data-aberto="close"] {
+            opacity: 0%;
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 280px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            height: 100px;
+            padding: 2%;
+            transition: 10ms;
+        }
+
+        &[data-aberto="open"] {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 600px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            height: 100px;
+            padding: 2%;
+            transition: 500ms;
+        }
+    }
+
+    .texth5 {
+        &[data-aberto="close"] {
+            opacity: 0%;
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 280px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            height: 100px;
+            padding: 2%;
+            transition: 10ms;
+        }
+
+        &[data-aberto="open"] {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 800px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            height: 100px;
+            padding: 2%;
+            transition: 500ms;
+        }
+    }
+
+    .texth6 {
+        &[data-aberto="close"] {
+            opacity: 0%;
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 280px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            height: 100px;
+            padding: 2%;
+            transition: 10ms;
+        }
+
+        &[data-aberto="open"] {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 999px;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 90%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            height: 100px;
+            padding: 2%;
+            transition: 500ms;
+        }
+    }
+
     .btnv {
         &[data-aberto="close"] {
             position: absolute;
@@ -596,7 +701,7 @@
             position: absolute;
             transform: translate(-50%, -50%);
             left: 50%;
-            top: 620px;
+            top: 1230px;
             border: 1px #00ab6e solid;
             cursor: pointer;
             background: black;
@@ -1280,5 +1385,110 @@
         position: absolute;
         left: 105%;
         bottom: 27%;
+    }
+
+    .texth4 {
+        &[data-aberto="close"] {
+            opacity: 0%;
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 280px;
+            transform: translate(-50%, -50%);
+            left: 45%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            width: 45%;
+            height: 100px;
+            padding: 2%;
+            transition: 10ms;
+        }
+    
+        &[data-aberto="open"] {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 620px;
+            transform: translate(-50%, -50%);
+            left: 45%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            width: 45%;
+            height: 100px;
+            padding: 2%;
+            transition: 500ms;
+        }
+    }
+
+    .texth5 {
+        &[data-aberto="close"] {
+            opacity: 0%;
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 280px;
+            transform: translate(-50%, -50%);
+            left: 45%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            width: 45%;
+            height: 100px;
+            padding: 2%;
+            transition: 10ms;
+        }
+    
+        &[data-aberto="open"] {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 820px;
+            transform: translate(-50%, -50%);
+            left: 45%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            width: 45%;
+            height: 100px;
+            padding: 2%;
+            transition: 500ms;
+        }
+    }
+
+    .texth6 {
+        &[data-aberto="close"] {
+            opacity: 0%;
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 280px;
+            transform: translate(-50%, -50%);
+            left: 45%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            width: 45%;
+            height: 100px;
+            padding: 2%;
+            transition: 10ms;
+        }
+    
+        &[data-aberto="open"] {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            color: white;
+            top: 1020px;
+            transform: translate(-50%, -50%);
+            left: 45%;
+            font-size: 20px;
+            background: #0b0b0b;
+            border-radius: 20px;
+            width: 45%;
+            height: 100px;
+            padding: 2%;
+            transition: 500ms;
+        }
     }
 }

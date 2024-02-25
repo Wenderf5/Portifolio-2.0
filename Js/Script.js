@@ -18,6 +18,12 @@ var hk = document.getElementById("6h");
 var hkr = hk.textContent;
 var jk = document.getElementById("7h");
 var jkr = jk.dataset.aberto;
+var jt = document.getElementById("8h");
+var jtr = jk.dataset.aberto;
+var ji = document.getElementById("9h");
+var jir = jk.dataset.aberto;
+var jl = document.getElementById("10h");
+var jlr = jk.dataset.aberto;
 function ax1() {
     if (oner == "1" &&
         twor == "2" &&
@@ -76,12 +82,18 @@ function ax3() {
         htr == "close" &&
         hzr == "close" &&
         hjr == "close" &&
+        jtr == "close" &&
+        jir == "close" &&
+        jlr == "close" &&
         hkr == "Ver mais") {
         har = "open"
         hbr = "open"
         htr = "open"
         hzr = "open"
         hjr = "open"
+        jtr = "open"
+        jir = "open"
+        jlr = "open"
         hkr = "Ver menos"
     } else if
         (har == "open" &&
@@ -89,12 +101,18 @@ function ax3() {
         htr == "open" &&
         hzr == "open" &&
         hjr == "open" &&
+        jtr == "open" &&
+        jir == "open" &&
+        jlr == "open" &&
         hkr == "Ver menos") {
         har = "close"
         hbr = "close"
         htr = "close"
         hzr = "close"
         hjr = "close"
+        jtr = "close"
+        jir = "close"
+        jlr = "close"
         hkr = "Ver mais"
     }
     ha.dataset.aberto = har;
@@ -102,6 +120,9 @@ function ax3() {
     ht.dataset.aberto = htr;
     hz.dataset.aberto = hzr;
     hj.dataset.aberto = hjr;
+    jt.dataset.aberto = jtr;
+    ji.dataset.aberto = jir;
+    jl.dataset.aberto = jlr;
     hk.textContent = hkr;
 }
 function ax4() {
